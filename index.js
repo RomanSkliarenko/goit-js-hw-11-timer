@@ -5,7 +5,7 @@ const refs = {
   sec: document.querySelector('[data-value="secs"]'),
 };
 function startTimer() {
-  const endTimer = new Date("February 2, 2021");
+  const endTimer = new Date("February 4, 2021");
   setInterval(() => {
     const currentTime = new Date();
     const deltaTime = endTimer - currentTime;
